@@ -56,10 +56,13 @@
         }
         
         main{
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
             width: 1000px;
             margin: auto;
             margin-top: 50px;
             padding: 40px;
+            box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.16);
         }
         h1#title{
             margin-left: 400px;
@@ -129,7 +132,7 @@
             text-decoration: underline;
         }
         .card{
-            display: inline-block;
+            display:inline-block;
             margin: 40px;
         background-color: #fff;
         width: 180px;
@@ -155,6 +158,8 @@
     font-size: 1rem;
     font-weight: bold;
     border-radius: 5px;
+    position: relative;
+    top: -35px;
 }
 .card button:hover{
     background-color:deepskyblue;
@@ -173,6 +178,26 @@
     align-items: center;
     gap: 4px;
     height: 50%;   
+    
+}
+iframe{
+    display: block;
+    margin: 50px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+}
+h2{
+    margin: 20px;
+}
+p{
+    margin: 20px;
+    text-align: justify;
+    text-indent: 30px;
+}
+#cards{
+    text-align: center;
 }
     </style>
 </head>
@@ -191,51 +216,62 @@
     <h1 id="title">
         Natureza e a Promessa de um Mundo Renovado</h1>
     <main>
-            <h2>Sobre</h2><br><br>
-        <hr>
-
+            <h2>Sobre nós</h2>
         <p>
             O Projeto Semeie tem como foco abordar assuntos sobre a biodiversidade e mudanças climáticas no nosso planeta, visando assim tambem passar uma melhor perspectiva do que está acontecendo e o que pode vir á acontecer num futuro próximo, como evitar e melhorar a saúde da nossa faúna.
         </p>
-        <br><br>
-        <div class="card">
-            <img src="feijao.jpg" alt="">
-    
-            <div >
-                <h1>Feijão</h1>
-                <h2></h2>
-                <span></span>
-                <button>Saiba mais</button>
+        <h2>Tipos de sementes</h2>
+        <div id="cards">
+            <div class="card">
+                <img src="feijao.jpg" alt="">
+                <div >
+                    <h1>Feijão</h1>
+                    <h2></h2>
+                    <span></span>
+                    <button>Saiba mais</button>
+                </div>
             </div>
-        </div> 
-        <div class="card">
-            <img src="semente-de-girassol.jpg" alt="">
-    
-            <div >
-                <h1>Girassol</h1>
-                <h2></h2>
-                <span></span>
-                <button>Saiba mais</button>
+            <div class="card">
+                <img src="semente-de-girassol.jpg" alt="">
+                <div >
+                    <h1>Girassol</h1>
+                    <h2></h2>
+                    <span></span>
+                    <button>Saiba mais</button>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <img src="arroz.jpg" alt="">
-    
-            <div >
-                <h1>Arroz</h1>
-                <h2></h2>
-                <span></span>
-                <button>Saiba mais</button>
+            <div class="card">
+                <img src="arroz.jpg" alt="">
+                <div >
+                    <h1>Arroz</h1>
+                    <h2></h2>
+                    <span></span>
+                    <button>Saiba mais</button>
+                </div>
             </div>
         </div>
 
         <hr>
-        <p>Ano de publicação: 2024</p>
-        <p>Palavras-chaveAgricultura, Comunidade local, Conservação de semente, Semente, Semente crioula</p>
+        <h2>Desmatamento na Amazonia</h2>
 
-        <img src="deserto.jpg" alt=""><br><br>
-        <p>As mudanças climáticas também provocam elevação do nível do mar, aumento na intensidade e frequência de incêndios florestais, ameaça à disponibilidade de água doce, desequilíbrios nos ecossistemas marinhos, alterações nos padrões de migração de animais e plantas, e impactos negativos na agricultura, pesca e setores relacionados. Ações globais coordenadas são necessárias para mitigar esses efeitos e promover a sustentabilidade ambiental.</p>
+        <p>Durante o período de 2000 a 2024, a Amazônia enfrentou um aumento alarmante no desmatamento, causado principalmente por atividades humanas, como agricultura, pecuária, mineração ilegal e invasões de terras. Esse aumento teve consequências devastadoras para a região e para o mundo em geral.
+
+            Nos primeiros anos do século XXI, o desmatamento na Amazônia atingiu níveis recordes, impulsionados pelo avanço da fronteira agrícola e pela demanda global por commodities como soja e carne bovina. Políticas de incentivo econômico também contribuíram para o desmatamento, com políticas que incentivavam a expansão agrícola em áreas de floresta.
+            
+            Apesar dos esforços para conter o desmatamento, como a implementação de áreas protegidas e ações de fiscalização, o ritmo de destruição da floresta continuou a crescer ao longo dos anos. A falta de aplicação eficaz das leis ambientais, a corrupção e o desmatamento ilegal foram alguns dos desafios enfrentados pelas autoridades.
+            
+            O desmatamento na Amazônia tem sérias consequências ambientais, incluindo a perda de biodiversidade, a liberação de grandes quantidades de carbono na atmosfera, contribuindo para as mudanças climáticas, e o impacto nas comunidades indígenas e populações locais, que dependem da floresta para sua subsistência e cultura.
+            
+            Esforços de conscientização, políticas de conservação mais rigorosas, investimentos em alternativas econômicas sustentáveis e cooperação internacional são essenciais para enfrentar esse desafio e garantir a preservação da Amazônia para as futuras gerações.</p>
+        <img width="800px" src="SITE_Desmatamento-0-img.png" alt="">
+
+        <p>
+            O grafico acima mostra o crescimento do desmatamento em massa entre os anos de 1988, 1995 e  2004.
+        </p>
+
+        <iframe width="800" height="370" src="https://www.youtube.com/embed/4bcBifYGLgk?si=ql3dsA56hJ4R8mvU"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
         
+        <p>A preservação da natureza e a melhoria do planeta Terra são essenciais para o bem-estar humano e a sobrevivência de todas as formas de vida. Para alcançar esse objetivo, é crucial adotar práticas sustentáveis, promover a conservação dos ecossistemas e reduzir o impacto ambiental. Isso requer ação colaborativa de governos, empresas e indivíduos, com investimentos em energias renováveis, políticas ambientais eficazes e conscientização pública. Ao proteger e valorizar a natureza, podemos garantir um futuro mais saudável e equilibrado para todos.</p>
         
 
     </main>
