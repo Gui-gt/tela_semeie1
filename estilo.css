@@ -3,6 +3,7 @@
         padding: 0px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+    
     header{
         background-image: url(pexels-mahima-1250260.jpg);
         background-size: cover;
@@ -210,6 +211,7 @@ text-align: center;
     color: white;
     font-weight: bold;
     margin-left: 100px;
+    margin-top: 13px;
     padding: 10px;
     position: absolute;
     top: 92%;
@@ -254,23 +256,36 @@ text-align: center;
     border-radius: 8px 2px;
     color: white;
     font-weight: bold;
-    margin-left: 100px;
+    margin: auto;
     padding: 10px;
-    
-    
-    
+    transition: 0.3s;
+}
+#btext02:hover{
+    transition: 0.3s;
+    background-color: rgb(61, 173, 76);
+    border-radius: 4px 12px;
+    cursor: pointer;
 }
 #box1{
+    position: absolute;
     width: 750px;
     height: 500px;
+    top: 320%;
     background-color: black;
 }
 #box2{
     position: absolute;
     left:49%;
-    top: 289%;
+    top: 320%;
     width: 750px;
     height: 500px;
-    background-color: rgb(202, 41, 41);
+    background-color: rgb(5, 114, 18);
+}
+h5{
+    color: rgba(0, 0, 0, 0.242);
+}
+#section02{
+    height: 500px;
+    margin-bottom: 20px;
 }
 
