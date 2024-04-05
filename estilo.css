@@ -48,7 +48,7 @@
     }
     
     main{
-        margin-bottom: 50px;
+        height: 800px;
         width: 100%;
     }
     h1#title{
@@ -69,7 +69,6 @@
         text-align: center;
         display: block;
         margin-top: 35px;
-        border-radius: 15px;
     }
     img#p{
         top: -20.2px;
@@ -218,10 +217,12 @@ text-align: center;
     top: 50%;
     width: 500px;
 }
-#img02{
-    width: 500px;
-
+#imgg{
+    position: absolute;
+    top: 100%;
 }
-#main02{
-
+#imga{
+    position: absolute;
+    top: 100%;
+    left: 50%;
 }
