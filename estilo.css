@@ -64,6 +64,9 @@
         background-color: black;
         text-align: center;
     }
+    .icon{
+        border-radius: 15px;
+    }
     img{
         margin: auto;
         text-align: center;
@@ -226,3 +229,25 @@ text-align: center;
     top: 100%;
     left: 50%;
 }
+#section01{
+    text-align: center;
+}
+.item{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    border: 1px solid white;
+}
+#btext02{
+    background-color: rgb(26, 101, 26);
+    border: none;
+    padding: 10px;
+    border-radius: 8px 2px;
+    color: white;
+    font-weight: bold;
+    margin-left: 100px;
+    padding: 10px;
+    
+    
+}
+
