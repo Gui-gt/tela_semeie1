@@ -380,8 +380,8 @@ h5{
     border: none;
     width: 200px;
     padding: 10px;
-    border-radius: 5px;
-    background-color: green;
+    border-radius: 2px 8px;
+    background-color: rgb(39, 97, 39);
     color: white;
     margin-left: 50px;
     transition: 0.3s;
@@ -389,4 +389,11 @@ h5{
 .botaoo:hover{
     background-color: rgb(94, 210, 94);
     transition: 0.3s;
+    border-radius: 8px 2px;
+}
+#equip > h1{
+    position: relative;
+    top: 8%;
+    left: 40%;
+    
 }
