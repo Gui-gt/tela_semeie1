@@ -288,7 +288,7 @@ h5{
     margin-bottom: 20px;
 }
 #imggirasol{
-    background-image: url(arvore.jpg);
+    background-color: #e7e7e7;
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
@@ -330,10 +330,10 @@ h5{
     top: 30%;
     left: 13%;
     font-size: 2em;
-    color: white;
 }
 #imggirasol2{
-    background-color: rgb(211, 222, 222);
+    background-image: url(planta.jpg);
+    background-size: cover;
     width: 50%;
     position: absolute;
     display: block;
