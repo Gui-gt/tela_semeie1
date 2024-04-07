@@ -345,3 +345,23 @@ h5{
     margin-left: 50%;
     top: 110.6%;
 }
+#equip{
+    background-color: aqua;
+    height: 500px;
+    width: 100%;
+}
+.equipamento{
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#equipamentos{
+    border: 1px solid black;
+    width: 500px;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
