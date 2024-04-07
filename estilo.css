@@ -376,3 +376,17 @@ h5{
     padding: 20px;
     border-radius: 10px;
 }
+.botaoo{
+    border: none;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    margin-left: 50px;
+    transition: 0.3s;
+}
+.botaoo:hover{
+    background-color: rgb(94, 210, 94);
+    transition: 0.3s;
+}
