@@ -287,5 +287,15 @@ h5{
     height: 500px;
     margin-bottom: 20px;
 }
+#imggirasol{
+    background-image: url(arvore.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 500px;
+}
+.girasol{
+    text-align: justify;
+}
 
 
