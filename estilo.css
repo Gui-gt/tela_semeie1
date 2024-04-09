@@ -300,9 +300,9 @@ h5{
     text-align: justify;
 }
 .botao{
-    background-color: rgb(26, 101, 26);
+    background-color:rgb(39, 97, 39);
     border: none;
-    padding: 10px;
+    padding: x;
     border-radius: 8px 2px;
     color: white;
     font-weight: bold;
@@ -312,7 +312,7 @@ h5{
 }
 .botao:hover{
     transition: 0.3s;
-    background-color: rgb(61, 173, 76);
+    background-color: rgb(94, 210, 94);
     border-radius: 4px 12px;
     cursor: pointer;
 } 
